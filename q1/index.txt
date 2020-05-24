@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <title>Question 1</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+        <link rel="Stylesheet" href="ques1.css" />
+        <script type="text/javascript" src="ques1.js">
+        </script>
+    </head>
+    <body>
+        <form name="myForm" align=center>
+            <div class="divForm">
+                <table>
+                <tr>
+                <td>
+                <div class="tdlabel">
+                    <label>Full Name</label>
+                </div>
+                </td>
+                <td>
+                <div class="inputIcon bg">
+                    <input type="text" placeholder="Full Name" name="fullname" required>
+                    <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+                </div>
+                </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <div class="tdlabel">
+                            <label>Address Line 1</label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="inputIcon bg">
+                            <input type="text" placeholder="Address Line 1" name="addr1" required>
+                            <i class="fa fa-home fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <div class="tdlabel">
+                            <label>Address Line 2</label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="inputIcon bg">
+                            <input type="text" placeholder="Address Line 2" name="addr2" required>
+                            <i class="fa fa-home fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <div class="tdlabel">
+                            <label>City</label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="inputIcon bg">
+                            <input type="text" placeholder="City" name="city" required>
+                            <i class="fa fa-home fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="tdlabel">
+                            <label>State/Province/Zip</label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="inputIcon bg">
+                            <input type="text" placeholder="State/Province/Zip" name="state" required>
+                            <i class="fa fa-home fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="tdlabel">
+                            <label>Postal code/ZIP</label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="inputIcon bg">
+                            <input type="text" placeholder="Postal code/ZIP" name="zip" required>
+                            <i class="fa fa-home fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="tdlabel">
+                            <label>Country</label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="selectIcon bg">
+                            <select name="country" required>
+                                <option value="" selected="selected" disabled="disabled">Select your country</option>
+                                <option value="1">India</option>
+                                <option value="2">Pakistan</option>
+                            </select>
+                            <i class="fa fa-flag fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <div class="tdlabel">
+                            <label>Email</label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="inputIcon bg">
+                            <input type="text" placeholder="Email" name="email" required>
+                            <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="tdlabel">
+                            <label>Phone Number</label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="inputIcon bg">
+                            <input type="text" placeholder="Phone Number" name="phone" required>
+                            <i class="fa fa-phone fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
+                    </td>
+                </tr>
+                </table>
+                <button onclick="btnclk()">Submit</button>
+            </div>
+        </form>
+    </body>
+</html>
