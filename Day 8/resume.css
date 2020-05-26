@@ -1,0 +1,86 @@
+﻿.avatr {
+  overflow: hidden;
+  width: 125px;
+  height: 125px;
+  border-radius: 100%;
+  border-style:dotted;
+  border-color: #fcbf1e;
+}
+.lbmain1
+{
+  color:white;
+  font-size: medium;
+  margin-left: 50px;
+}
+body {
+  margin-left:20%;
+  margin-right:20%;
+}
+
+.hdiv {
+  background-color: #666;
+  padding: 5px;
+  text-align: center;
+}
+.htitle{
+    width:400px;
+    background-color:#fcbf1e;
+    position: absolute;
+    left:35%;
+    margin-top:-25px;
+    border-radius: 5px;
+    font-family:Times New Roman;
+    text-align:center;
+    font-size:30px;
+}
+
+.greyPad {
+  background-color: #666;
+  padding: 12px;
+  text-align: center;
+}
+.whitePad {
+  background-color: #F0F0F0;
+  padding: 10px;
+  text-align: center;
+}
+
+.title
+{
+    color: #888888;
+    font-size:xx-large;
+}
+
+.txt
+{
+    width:50%;
+    text-align:justify;
+}
+li
+{
+    width:50%;
+    text-align:justify;
+}
+
+td
+{
+    font-family:Arial;
+}
+
+.split {
+  width: 50%;
+  position: absolute;
+  left: 50%;
+}
+
+.left {
+  left: 0;
+  margin-left:20%;
+}
+
+.right {
+  right: 0;
+  padding-left: 10px;
+  border-left: 2px solid #F0F0F0;
+}
+
