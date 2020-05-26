@@ -1,0 +1,115 @@
+.basediv {
+    overflow: hidden;
+    border-radius: 30px 30px 30px 30px;
+    height: 1000px;
+    width: 700px;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+.innerdiv {
+    overflow: hidden;
+    border-radius: 25px 25px 25px 25px;
+    border: white dotted 2px;
+    
+}
+.scrolldiv {
+    height: 300px;
+    width: 800%;
+    transform: rotate(2deg);
+    background-color: #1f1627;
+}
+
+div.scrolldiv p {
+    margin-top: 40px;
+    font-weight: 900;
+    font-size: 35px;
+    color: #d8cfcb;
+    margin-left: 80px;
+    transform: rotate(-2deg);
+}
+
+.firstletter {
+    color: #d8cfcb;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-left: 3px;
+}
+
+.scrolldiv1 {
+    margin-top: -40px;
+    height: 300px;
+    width: 800%;
+    transform: rotate(2deg);
+    background-color: #e8dfd6;
+}
+
+div.scrolldiv1 p {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #1e1627;
+    margin-left: 80px;
+    transform: rotate(-2deg);
+}
+
+.firstletter1 {
+    color: #1e1627;
+    float: left;
+    font-size: 75px;
+    line-height: 38px;
+    padding-top: 4px;
+    padding-left: 3px;
+}
+
+.gstuff {
+    color: #1e1627;
+    font-size: 20px;
+    padding-top: 4px;
+    padding-left: 3px;
+}
+
+.scrolldiv2 {
+    margin-top: -40px;
+    height: 240px;
+    width: 800%;
+    transform: rotate(2deg);
+    background-color: pink;
+}
+
+div.scrolldiv2 p {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #6e2100;
+    margin-left: 260px;
+    transform: rotate(-2deg);
+}
+
+.firstletter2 {
+    float: left;
+    color: #6e2100;
+    font-size: 120px;
+    line-height: 30px;
+    padding-top: 4px;
+    padding-left: 3px;
+}
+
+.scrolldiv3 {
+    height: 500px;
+    width: 800%;
+    transform: rotate(2deg);
+    background-color: #dbdcde;
+}
+
+div.scrolldiv3 table {
+    padding-top: 20px;
+    font-size: 15px;
+    color: #97989a;
+    margin-left: 30px;
+    transform: rotate(-2deg);
+}
+
+td {
+    column-width: 200px;
+}
