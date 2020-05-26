@@ -1,0 +1,104 @@
+﻿.avatr {
+  overflow: hidden;
+  width: 125px;
+  height: 125px;
+  border-radius: 100%;
+  border-style:dotted;
+  border-color: #fcbf1e;
+}
+
+body {
+  margin-left:20%;
+  margin-right:20%;
+}
+
+.hdiv {
+  background-color: #666;
+  padding: 5px;
+  text-align: center;
+}
+.htitle{
+    width:30%;
+    background-color:#fcbf1e;
+    position: absolute;
+    left:35%;
+    margin-top:-25px;
+    border-radius: 5px;
+    font-family:Arial, Helvetica;
+    text-align:center;
+    font-size:25px;
+}
+
+.greySpace {
+  background-color: #666;
+  padding: 12px;
+  text-align: center;
+}
+.whiteSpace {
+  background-color: #F0F0F0;
+  padding: 10px;
+  text-align: center;
+}
+
+.title
+{
+    color: #888888;
+    font-size:x-large;
+    
+}
+
+.txt
+{
+    width:50%;
+    text-align:justify;
+}
+li
+{
+    width:50%;
+    text-align:justify;
+}
+
+td
+{
+    font-family:Arial;
+}
+
+.split {
+  width: 50%;
+  position: absolute;
+  left: 50%;
+}
+
+.left {
+  left: 0;
+  margin-left:20%;
+}
+
+.right {
+  right: 0;
+  padding-left: 10px;
+  border-left: 2px solid #F0F0F0;
+}
+
+* {box-sizing:border-box}
+
+.container {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #F0F0F0;
+}
+
+.skills {
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.java {width: 80%; border-radius: 10px; background-color: #fcbf1e; }
+.html {width: 70%; border-radius: 10px; background-color: #fcbf1e;}
+.css {width: 65%; border-radius: 10px; background-color: #fcbf1e;}
+.python {width: 70%; border-radius: 10px; background-color: #fcbf1e;}
+.tw {width: 80%; border-radius: 10px; background-color: #fcbf1e;}
+.lead {width: 60%; border-radius: 10px; background-color: #fcbf1e;}
