@@ -1,0 +1,32 @@
+.transformSkew{
+    position: relative;
+    background-color: #0275d8;
+	border-radius: 30px 30px 0px 0px;
+	border-bottom: 0px;
+	width: 100%;
+	height: 450px;
+	padding-top:150px;
+	color: white;
+}
+
+.transformSkew:after{
+	position: absolute;
+	margin-top:30px;
+	width: 100%;
+	height: 100%;
+	content: '';
+	z-index: -1;
+	background: inherit;
+	top: 0;
+	right: 0;
+	bottom:0;
+	left:0;
+	transform-origin: top right;
+	transform: skewY(-8deg);
+}
+
+@media only screen and (max-width: 600px) {
+    .card{
+      margin-top: 600px;
+    }
+  }
