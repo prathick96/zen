@@ -1,0 +1,9 @@
+.flex-container {
+    display: flex;
+    background-color: white;
+    margin: 100px;
+  }
+  
+  .flex-container > div {
+    height: 400px;
+  }

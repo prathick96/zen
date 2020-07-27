@@ -1,0 +1,142 @@
+.eqbase {
+    margin-left: 50px;
+    height: 150px;
+    width: 300px;
+}
+
+.eq1 {
+    font-size: 30px;
+    text-align: center;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.eq2 {
+    font-size: 30px;
+    padding-left: 20px;
+    margin-left: 100px;
+    margin-top: 45px;
+    position: absolute;
+}
+
+.eq3 {
+    font-size: 30px;
+    text-align: center;
+    padding-left: 20px;
+    margin-left: 170px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.rect {
+    filter: grayscale(100%);
+    border-radius: 25px;
+    border: 2px solid black;
+    border-style: dashed;
+    width: 200px;
+    height: 150px;
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+    body {
+        font-size: 25px;;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .mediarule {
+        font-size: 30px;
+    }
+}
+
+.boxmodel {
+    padding: 5px 10px 15px 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: green;
+    margin: 20px;
+}
+
+span.smouseover:hover {
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    background-color: red;
+}
+
+.divbase {
+    margin-left: 50px;
+    border: blue;
+    border-width: 5px;
+    border-style: solid;
+    height: 400px;
+    width: 900px;
+    background-color: yellow;
+}
+
+.exfonts {
+    font-family: 'Anton', sans-serif;
+}
+
+.exfonts1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.disp1 {
+    width: 320px;
+    height: 120px;
+    background-color: yellow;
+    border: 2px solid black;
+    transform: translate(10px, 10px);
+}
+
+.disp2 {
+    width: 320px;
+    height: 120px;
+    background-color: yellow;
+    border: 2px solid black;
+    transform: translate(340px,-114px);
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.initial {
+    float: left;
+    width: 100px;
+    font-size: 420%;  
+    line-height: 80%;
+  }
+  .txt {
+    font-size: 200%;
+    width: 400px;
+    background-color:#E6E6FA;
+  }
+
+.curvedRect {
+    background-color: #00CED1;
+    border-radius: 18px 0px 18px 0px;
+    height: 150px;
+    width: 300px;
+    margin-left: 30px;
+}
